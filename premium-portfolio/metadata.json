@@ -1,0 +1,145 @@
+{
+  "name": "Premium Creative Portfolio",
+  "type": "document",
+  "description": "A dynamic portfolio template for creative professionals with immersive animations and modern design",
+  "version": "1.0.0",
+  "categories": [
+    "creative",
+    "portfolio",
+    "developer",
+    "designer",
+    "professional"
+  ],
+  "tags": [
+    "responsive",
+    "dark-mode",
+    "animated",
+    "premium",
+    "modern",
+    "dynamic",
+    "framer-motion"
+  ],
+  "author": "Creative Studio",
+  "customData": {
+    "sections": [
+      {
+        "id": "hero",
+        "name": "Hero Section",
+        "dataFile": "data/heroData.ts",
+        "schema": {
+          "isRequired": true,
+          "title": "CREATIVE",
+          "subtitle": "DIRECTOR",
+          "description": "Crafting digital experien.."
+        }
+      },
+      {
+        "id": "story",
+        "name": "Story Section",
+        "dataFile": "data/storyData.ts",
+        "schema": {
+          "isRequired": true,
+          "title": "MY STORY",
+          "subtitle": "A journey through creativ..",
+          "chapters": [
+            {
+              "id": 1,
+              "title": "The Beginning",
+              "year": "2018",
+              "content": "Started as a curious mind..",
+              "image": "file/image"
+            }
+          ]
+        }
+      },
+      {
+        "id": "projects",
+        "name": "Projects Section",
+        "dataFile": "data/projectsData.ts",
+        "schema": {
+          "isRequired": true,
+          "title": "FEATURED WORK",
+          "subtitle": "A curated selection of pr..",
+          "projects": [
+            {
+              "id": 1,
+              "title": "Ethereal Commerce",
+              "category": "E-commerce Platform",
+              "description": "A luxury fashion platform..",
+              "image": "file/image",
+              "year": "2024"
+            }
+          ]
+        }
+      },
+      {
+        "id": "skills",
+        "name": "Skills Section",
+        "dataFile": "data/skillsData.ts",
+        "schema": {
+          "isRequired": true,
+          "title": "EXPERTISE",
+          "subtitle": "A comprehensive skill set..",
+          "skills": [
+            {
+              "name": "Creative Direction",
+              "percentage": 95
+            }
+          ],
+          "technologies": [
+            {
+              "name": "React"
+            }
+          ],
+          "timeline": [
+            {
+              "year": "2024",
+              "title": "AI-Powered Design",
+              "description": "Integrating machine lear.."
+            }
+          ]
+        }
+      },
+      {
+        "id": "contact",
+        "name": "Contact Section",
+        "dataFile": "data/contactData.ts",
+        "schema": {
+          "isRequired": true,
+          "title": "LET'S CREATE",
+          "subtitle": "Ready to bring your visio..",
+          "contactInfo": {
+            "email": "hello@creativedirector.com",
+            "phone": "+1 (555) 123-4567",
+            "location": "New York, NY",
+            "availability": "Available for new projects"
+          },
+          "socialMedia": {
+            "twitter": "https://twitter.com/crea..",
+            "instagram": "https://instagram.com/..",
+            "linkedin": "https://linkedin.com/in/..",
+            "github": "https://github.com/creativ..",
+            "dribbble": "",
+            "behance": "",
+            "youtube": "",
+            "facebook": ""
+          },
+          "messaging": {
+            "email": "hello@creativedirector.com",
+            "whatsapp": "+1 (555) 123-4567",
+            "telegram": "@creativedirector"
+          }
+        }
+      }
+    ],
+    "requirements": {
+      "node": ">=18.0.0",
+      "nextjs": ">=14.0.0",
+      "framerMotion": ">=10.0.0"
+    },
+    "sampleData": true,
+    "appPath": "app",
+    "createdAt": "2024-01-20",
+    "updatedAt": "2024-01-20"
+  }
+}
